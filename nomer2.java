@@ -2,13 +2,13 @@ package dz2;
 
 import java.util.Scanner;
 
-public class ggg {
+public class nomer2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         double x = in.nextDouble();
-        boolean res = (x >= -2 && x <= 3) || (x >= 6 && x <= 9);
-        System.out.println(!res);
-        // задача номер 3
+        boolean res = x >=-3 && x<=5 || x >= 9 && x <= 15 ;
+        System.out.println(res);
+
     }
 }

@@ -2,7 +2,7 @@ package dz2;
 
 import java.util.Scanner;
 
-public class ttt {
+public class nomer5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class ttt {
         boolean res =  (a + b == 0) || (a + c == 0) || (a + d == 0) ||
                 (b + c == 0) || (b + d == 0) || (c + d == 0);
 
-    // задача номер 5
+
         System.out.println(res);
     }
 }
